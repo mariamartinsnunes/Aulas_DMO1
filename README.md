@@ -15,6 +15,9 @@ Os projetos são desenvolvidos utilizando a linguagem **Kotlin**, focando no apr
 #### [Aula 02] Estruturas de Condição e de Repetição
 > Estruturas de controle de fluxo, validação e tratamento de entradas nulas.
 
+#### [Aula 03] Funções, coleções e Arrays
+> Modularização de código, manipulação de conjunto de dados e estruturas de armazenamento.
+
 ---
 
 ### 🛠️ Tecnologias e Ferramentas
