@@ -18,6 +18,9 @@ Os projetos são desenvolvidos utilizando a linguagem **Kotlin**, focando no apr
 #### [Aula 03] Funções, coleções e Arrays
 > Modularização de código, manipulação de conjunto de dados e estruturas de armazenamento.
 
+#### [Aula 04] Orientação a Objetos
+> Retomando conceitos de POO: abstração, encapsulamento, herança e polimorfismo.
+> 
 ---
 
 ### 🛠️ Tecnologias e Ferramentas
