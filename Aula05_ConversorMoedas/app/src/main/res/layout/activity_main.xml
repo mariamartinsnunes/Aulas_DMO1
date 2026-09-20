@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8EBF0"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text_titulo_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="serif-monospace"
+        android:text="CONVERSOR"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_moeda_destino"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="48dp"
+        android:entries="@array/moedas_array"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo_app" />
+
+    <Spinner
+        android:id="@+id/spinner_moeda_origem"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="100dp"
+        android:entries="@array/moedas_array"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo_app" />
+
+    <ImageView
+        android:id="@+id/img_bandeira01"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_moeda_origem"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/img_bandeira02"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_moeda_destino"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <TextView
+        android:id="@+id/text_titulo_valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="serif-monospace"
+        android:text="VALOR: "
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/text_number_valor"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_bandeira01" />
+
+    <TextView
+        android:id="@+id/text_titulo_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="serif-monospace"
+        android:text="RESULTADO: "
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/text_resultado"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo_valor" />
+
+    <TextView
+        android:id="@+id/text_resultado"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:text="..."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_number_valor" />
+
+    <Button
+        android:id="@+id/btn_converter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1D4554"
+        android:fontFamily="serif-monospace"
+        android:text="CONVERTER"
+        android:textColorLink="#1D4554"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:iconTint="#1D4554"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo_resultado"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <EditText
+        android:id="@+id/text_number_valor"
+        android:layout_width="207dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_bandeira02" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
