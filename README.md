@@ -26,6 +26,7 @@ Os projetos são desenvolvidos utilizando a linguagem **Kotlin**, focando no apr
 
 #### [Aula 06 - 14/09/26] Convenções de código e padrões de nomenclatura
 > Boas práticas de escrita de código.
+> 
 > Desenvolvimento de um aplicativo simples para converter moedas.
 ---
 
