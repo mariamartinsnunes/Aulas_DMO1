@@ -9,18 +9,24 @@ Os projetos são desenvolvidos utilizando a linguagem **Kotlin**, focando no apr
 
 ### 📚 Conteúdo por Aula
 
-#### [Aula 01] Introdução ao Kotlin e Conceitos Básicos
+#### [Aula 01 - 03/08/26] Introdução ao Kotlin e Conceitos Básicos
 > Entrada e saída de dados, manipulação de Strings e operações matemáticas básicas.
 
-#### [Aula 02] Estruturas de Condição e de Repetição
+#### [Aula 02 - 10/08/26] Estruturas de Condição e de Repetição
 > Estruturas de controle de fluxo, validação e tratamento de entradas nulas.
 
-#### [Aula 03] Funções, coleções e Arrays
+#### [Aula 03 - 17/08/26] Funções, coleções e Arrays
 > Modularização de código, manipulação de conjunto de dados e estruturas de armazenamento.
 
-#### [Aula 04] Orientação a Objetos
+#### [Aula 04 - 24/08/26] Orientação a Objetos
 > Retomando conceitos de POO: abstração, encapsulamento, herança e polimorfismo.
-> 
+
+#### [Aula 05 - 31/08/26] Introdução ao Android Studio
+> Configuração do ambiente, conceitos básicos, cores e temas.
+
+#### [Aula 06 - 14/09/26] Convenções de código e padrões de nomenclatura
+> Boas práticas de escrita de código.
+> Desenvolvimento de um aplicativo simples para converter moedas.
 ---
 
 ### 🛠️ Tecnologias e Ferramentas
