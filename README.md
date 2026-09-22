@@ -28,6 +28,9 @@ Os projetos são desenvolvidos utilizando a linguagem **Kotlin**, focando no apr
 > Boas práticas de escrita de código.
 > 
 > Desenvolvimento de um aplicativo simples para converter moedas.
+
+#### [Aula 07 - 21/09/26] View Binding
+> Substituição do findViewById() pelo View Binding para acesso de elementos de interface.
 ---
 
 ### 🛠️ Tecnologias e Ferramentas
