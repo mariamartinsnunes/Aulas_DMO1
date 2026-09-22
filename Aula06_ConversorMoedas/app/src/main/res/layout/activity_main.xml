@@ -9,7 +9,7 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/text_titulo_app"
+        android:id="@+id/tituloApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
@@ -23,47 +23,47 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner_moeda_destino"
+        android:id="@+id/moedaDestino"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="48dp"
         android:entries="@array/moedas_array"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_titulo_app" />
+        app:layout_constraintTop_toBottomOf="@+id/tituloApp" />
 
     <Spinner
-        android:id="@+id/spinner_moeda_origem"
+        android:id="@+id/moedaOrigem"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="100dp"
         android:entries="@array/moedas_array"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_titulo_app" />
+        app:layout_constraintTop_toBottomOf="@+id/tituloApp" />
 
     <ImageView
-        android:id="@+id/img_bandeira01"
+        android:id="@+id/bandeiraOrigem"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="32dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_moeda_origem"
+        app:layout_constraintTop_toBottomOf="@+id/moedaOrigem"
         app:srcCompat="?attr/selectableItemBackgroundBorderless" />
 
     <ImageView
-        android:id="@+id/img_bandeira02"
+        android:id="@+id/bandeiraDestino"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_moeda_destino"
+        app:layout_constraintTop_toBottomOf="@+id/moedaDestino"
         app:srcCompat="?attr/selectableItemBackgroundBorderless" />
 
     <TextView
-        android:id="@+id/text_titulo_valor"
+        android:id="@+id/textValor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
@@ -72,13 +72,13 @@
         android:text="VALOR: "
         android:textSize="24sp"
         android:textStyle="bold|italic"
-        app:layout_constraintEnd_toStartOf="@+id/text_number_valor"
+        app:layout_constraintEnd_toStartOf="@+id/valor"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_bandeira01" />
+        app:layout_constraintTop_toBottomOf="@+id/bandeiraOrigem" />
 
     <TextView
-        android:id="@+id/text_titulo_resultado"
+        android:id="@+id/textResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
@@ -87,13 +87,13 @@
         android:text="RESULTADO: "
         android:textSize="24sp"
         android:textStyle="bold|italic"
-        app:layout_constraintEnd_toStartOf="@+id/text_resultado"
+        app:layout_constraintEnd_toStartOf="@+id/resultado"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_titulo_valor" />
+        app:layout_constraintTop_toBottomOf="@+id/textValor" />
 
     <TextView
-        android:id="@+id/text_resultado"
+        android:id="@+id/resultado"
         android:layout_width="150dp"
         android:layout_height="25dp"
         android:layout_marginTop="16dp"
@@ -102,10 +102,10 @@
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_number_valor" />
+        app:layout_constraintTop_toBottomOf="@+id/valor" />
 
     <Button
-        android:id="@+id/btn_converter"
+        android:id="@+id/btnConverter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#1D4554"
@@ -118,11 +118,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_titulo_resultado"
+        app:layout_constraintTop_toBottomOf="@+id/textResultado"
         app:layout_constraintVertical_bias="0.454" />
 
     <EditText
-        android:id="@+id/text_number_valor"
+        android:id="@+id/valor"
         android:layout_width="207dp"
         android:layout_height="40dp"
         android:layout_marginTop="84dp"
@@ -132,6 +132,6 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_bandeira02" />
+        app:layout_constraintTop_toBottomOf="@+id/bandeiraDestino" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
