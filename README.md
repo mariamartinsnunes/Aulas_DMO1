@@ -31,6 +31,11 @@ Os projetos são desenvolvidos utilizando a linguagem **Kotlin**, focando no apr
 
 #### [Aula 07 - 21/09/26] View Binding
 > Substituição do findViewById() pelo View Binding para acesso de elementos de interface.
+
+#### [Aula 08 - 28/09/26] ListView e Adapter
+> Uso do ListView para exibir coleção de dados e manipulação de cliques em itens.
+>
+> Desenvolvimento de um aplicativo simples para exibir uma lista de cursos e suas descrições.
 ---
 
 ### 🛠️ Tecnologias e Ferramentas
