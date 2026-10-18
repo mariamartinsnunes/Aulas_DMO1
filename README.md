@@ -36,6 +36,11 @@ Os projetos são desenvolvidos utilizando a linguagem **Kotlin**, focando no apr
 > Uso do ListView para exibir coleção de dados e manipulação de cliques em itens.
 >
 > Desenvolvimento de um aplicativo simples para exibir uma lista de cursos e suas descrições.
+
+#### [Aula 09 - 05/10/26] Intent e Constraint Layout
+> Uso de Intents explícitas para navegação entre telas (Activities) e passagem de dados básicos.
+>
+> Criação de layouts responsivos utilizando restrições (Constraints) no ConstraintLayout.
 ---
 
 ### 🛠️ Tecnologias e Ferramentas
