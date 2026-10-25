@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1CFDE"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo_app"
+        android:layout_width="232dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="serif"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/detalhes1_app"
+        android:layout_width="326dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="serif"
+        android:text="@string/app_descricao1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bandeira_destino" />
+
+    <ImageView
+        android:id="@+id/bandeira_destino"
+        android:layout_width="89dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/titulo_app"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icone_app" />
+
+    <TextView
+        android:id="@+id/detalhes2_app"
+        android:layout_width="326dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:text="@string/app_descricao2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detalhes1_app" />
+
+    <TextView
+        android:id="@+id/subtitulo_lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="serif"
+        android:text="@string/subtitulo_lista"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detalhes2_app" />
+
+    <ListView
+        android:id="@+id/listaDestinos"
+        android:layout_width="326dp"
+        android:layout_height="326dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitulo_lista" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

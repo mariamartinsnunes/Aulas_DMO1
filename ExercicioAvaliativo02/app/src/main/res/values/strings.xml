@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">FLY TURISMO</string>
+    <string name="app_descricao1">Faça sua viagem dos sonhos com a FLY TURISMO!</string>
+    <string name="app_descricao2">Aqui você encontra os melhores destinos com os melhores preços :)</string>
+
+    <string name="subtitulo_lista">Melhores destinos...</string>
+
+    <string-array name="destinos">
+        <item>Alemanha</item>
+        <item>Brasil</item>
+        <item>Egito</item>
+        <item>Finlândia</item>
+        <item>França</item>
+        <item>Grécia</item>
+        <item>Holanda</item>
+        <item>Índia</item>
+        <item>Itália</item>
+        <item>Japão</item>
+    </string-array>
+
+
+    <string name="pacote_alemanha_titulo">Pacote Europa Histórica</string>
+    <string name="pacote_alemanha">Pacote Europa Histórica: Explore o coração da Europa! Desfrute de passeios por castelos medievais de
+        conto de fadas, caminhe pelas charmosas ruas de Berlim e Munique e viva a rica cultura e tradição alemã com todo o conforto.</string>
+
+    <string name="pacote_brasil_titulo">Pacote Tropical e Maravilhas</string>
+    <string name="pacote_brasil">Pacote Tropical e Maravilhas: Descubra as paisagens deslumbrantes do Brasil! Inclui visitas guiadas às
+        praias paradisíacas do Rio de Janeiro, passeio ao Cristo Redentor e experiências imersivas na cultura vibrante do país.</string>
+
+    <string name="pacote_egito_titulo">Pacote Mistérios do Nilo</string>
+    <string name="pacote_egito">Pacote Mistérios do Nilo: Viaje no tempo até à terra dos faraós! Inclui visitas às majestosas Pirâmides de Gizé,
+        à Esfinge e um cruzeiro inesquecível pelo lendário Rio Nilo.</string>
+
+    <string name="pacote_finlandia_titulo">Pacote Aurora Boreal e Magia Nórdica</string>
+    <string name="pacote_finlandia">Pacote Aurora Boreal e Magia Nórdica: Uma experiência mágica no extremo norte da Europa! Viva o encanto
+        de observar a Aurora Boreal, conheça a Aldeia do Papai Noel na Lapônia e relaxe nas tradicionais saunas finlandesas.</string>
+
+    <string name="pacote_franca_titulo">Pacote Romantismo e Cultura</string>
+    <string name="pacote_franca">Pacote Romantismo e Cultura: Sinta o charme do país mais visitado do mundo! Inclui ingressos para o Museu
+        do Louvre, subida à Torre Eiffel e passeios gastronómicos pelas melhores vinhas e restaurantes de Paris.</string>
+
+    <string name="pacote_grecia_titulo">Pacote Ilhas Gregas e Antiguidade</string>
+    <string name="pacote_grecia">Pacote Ilhas Gregas e Antiguidade: Navegue pelo deslumbrante mar Egeu! Explore a histórica Acrópole em
+        Atenas e visite o pôr do sol mais famoso do mundo nas paradisíacas ilhas de Santorini e Mykonos.</string>
+
+    <string name="pacote_holanda_titulo">Pacote Canais e Tulipas</string>
+    <string name="pacote_holanda">Pacote Canais e Tulipas: Descubra a beleza encantadora dos Países Baixos! Inclui passeios de barco pelos canais de
+        Amsterdã, visitas aos campos coloridos de tulipas e aos históricos moinhos de vento.</string>
+
+    <string name="pacote_india_titulo">Pacote Espiritualidade e Tradição</string>
+    <string name="pacote_india">Pacote Espiritualidade e Tradição: Uma jornada inesquecível pelo sul da Ásia! Conheça a imponente beleza do Taj Mahal,
+        explore palácios fascinantes e vivencie a rica diversidade cultural e gastronomia local.</string>
+
+    <string name="pacote_italia_titulo">Pacote Arte e Gastronomia</string>
+    <string name="pacote_italia">Pacote Arte e Gastronomia: A combinação perfeita de história e sabor! Inclui excursões pelo icónico Coliseu de
+        Roma, passeios de gôndola pelos canais de Veneza e uma verdadeira imersão na culinária italiana.</string>
+
+    <string name="pacote_japao_titulo">Pacote Tradição e Futuro</string>
+    <string name="pacote_japao">Pacote Tradição e Futuro: Descubra o contraste fascinante do Japão! Visite os templos milenares de Kyoto, contemple
+        a vista do Monte Fuji e explore a modernidade vibrante e tecnológica de Tóquio.</string>
+
+
+    <string name="telefone">Telefone: (xx)xxxxx-xxxx</string>
+    <string name="email">Email: contato@ifsp.edu.br</string>
+    <string name="mapa">Veja a localização do país no mapa!</string>
+</resources>
