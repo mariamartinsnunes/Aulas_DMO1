@@ -41,6 +41,9 @@ Os projetos são desenvolvidos utilizando a linguagem **Kotlin**, focando no apr
 > Uso de Intents explícitas para navegação entre telas (Activities) e passagem de dados básicos.
 >
 > Criação de layouts responsivos utilizando restrições (Constraints) no ConstraintLayout.
+
+#### [Aula 10 - 19/10/26] Exercício Avaliativo
+> Criação de um aplicativo (Guia de Turismo) utilizando os conceitos estudados nas últimas aulas.
 ---
 
 ### 🛠️ Tecnologias e Ferramentas
